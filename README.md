@@ -25,11 +25,9 @@
 
 ## `// HALLAZGOS`
 
-| Expedición | Descripción | Stack |
-|:--|:--|:--|
-| [**Geo-Constanza**](https://github.com/vnoram/Geo-Constanza) | Gestión operativa y monitoreo espacial con geocercas para personal de seguridad, con Business Intelligence | JavaScript |
-| [**evaluacion-jenkins-docker**](https://github.com/vnoram/evaluacion-jenkins-docker) | Pipeline DevSecOps con Jenkins y Docker | Python · Jenkins · Docker |
-| [**discord-music-bot**](https://github.com/vnoram/discord-music-bot) | Bot de Discord que reproduce música de Spotify | JavaScript |
+<a href="https://github.com/vnoram/Geo-Constanza"><img src="assets/card-geo.svg" width="290" alt="Geo-Constanza"></a>
+<a href="https://github.com/vnoram/evaluacion-jenkins-docker"><img src="assets/card-jenkins.svg" width="290" alt="evaluacion-jenkins-docker"></a>
+<a href="https://github.com/vnoram/discord-music-bot"><img src="assets/card-bot.svg" width="290" alt="discord-music-bot"></a>
 
 <br>
 
