@@ -4,7 +4,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3200&pause=1200&color=2FE0C8&center=true&vCenter=true&width=900&lines=Descendiendo...;Desarrollo+web+%7C+Cloud+%7C+DevSecOps;Shhh...+duermeeee...;Sigo+escribiendo+codigo." alt="Typing animation">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3200&pause=1200&color=2FE0C8&center=true&vCenter=true&width=900&lines=Descendiendo...;Desarrollo+web+%7C+Cloud+%7C+DevSecOps;Shhh...+duermeeee...;Ya+estoy+muerto...;Un+programa+m%C3%A1s+no+me+har%C3%A1+da%C3%B1o" alt="Typing animation">
 
 </div>
 
