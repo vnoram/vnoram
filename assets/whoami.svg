@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" width="960" height="250" role="img" aria-label="whoami terminal">
+  <defs><style>
+    .m{font-family:'JetBrains Mono','Consolas','Courier New',monospace;font-size:16px}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+    .c{animation:blink 1s steps(2,end) infinite}
+  </style></defs>
+  <rect width="960" height="250" fill="#0a1230"/>
+  <rect x="1" y="1" width="958" height="248" fill="none" stroke="#6dff3a" stroke-opacity="0.6"/>
+  <rect x="1" y="1" width="958" height="30" fill="#2a1450"/>
+  <circle cx="22" cy="16" r="5" fill="#ff7a00"/><circle cx="42" cy="16" r="5" fill="#6dff3a"/><circle cx="62" cy="16" r="5" fill="#b98cff"/>
+  <text class="m" x="90" y="21" font-size="13" fill="#b98cff">entry-plug://unit-01</text>
+  <text class="m" x="24" y="68" fill="#6dff3a">pilot@eva01:~$ <tspan fill="#e8dcff">whoami</tspan></text>
+  <text class="m" x="24" y="96" fill="#e8dcff">Victor Leandro Norambuena Orellana · Chile</text>
+  <text class="m" x="24" y="128" fill="#6dff3a">pilot@eva01:~$ <tspan fill="#e8dcff">cat mission.txt</tspan></text>
+  <text class="m" x="24" y="156" fill="#ff7a00">&gt; construir software, desplegarlo en la nube y dejarlo seguro.</text>
+  <text class="m" x="24" y="178" fill="#ff7a00">&gt; proyecto activo: Geo-Constanza (geocercas + BI).</text>
+  <text class="m" x="24" y="210" fill="#6dff3a">pilot@eva01:~$ <tspan class="c" fill="#e8dcff">█</tspan></text>
+</svg>

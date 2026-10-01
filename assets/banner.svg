@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="960" height="300" role="img" aria-label="Victor Norambuena - Unit 01 / Kraken">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e1b3d"/><stop offset="0.6" stop-color="#0a1230"/><stop offset="1" stop-color="#060914"/>
+    </linearGradient>
+    <linearGradient id="eva" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a4fd0"/><stop offset="1" stop-color="#3b1a66"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.45"/><stop offset="1" stop-color="#ffd27a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="hex" width="40" height="46" patternUnits="userSpaceOnUse">
+      <path d="M20 2 L38 12 L38 34 L20 44 L2 34 L2 12 Z" fill="none" stroke="#ff7a00" stroke-opacity="0.08"/>
+    </pattern>
+    <style>
+      .mono{font-family:'JetBrains Mono','Consolas','Courier New',monospace}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+      @keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+      @keyframes sway{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+      .blink{animation:blink 1.4s steps(2,end) infinite}
+      .sub{animation:drift 5s ease-in-out infinite}
+      .tent{transform-origin:960px 300px;animation:sway 7s ease-in-out infinite}
+    </style>
+  </defs>
+  <rect width="960" height="300" fill="url(#sea)"/>
+  <rect width="960" height="300" fill="url(#hex)"/>
+  <polygon points="700,0 960,0 960,300 800,300" fill="url(#eva)" opacity="0.35"/>
+  <path d="M700 0 L800 300" stroke="#6dff3a" stroke-width="2.5" opacity="0.8"/>
+  <g class="tent" fill="none" stroke="#7a2a45" stroke-linecap="round">
+    <path d="M960 300 C900 230 850 250 840 180 C832 130 880 110 900 140" stroke-width="22" opacity="0.85"/>
+    <path d="M960 260 C910 200 930 140 880 100 C850 70 800 90 810 130" stroke-width="16" opacity="0.7"/>
+    <path d="M940 300 C880 280 790 290 760 240" stroke-width="14" opacity="0.6"/>
+  </g>
+  <g class="sub" transform="translate(560 120)">
+    <polygon points="-10,10 -150,-20 -150,40" fill="url(#beam)"/>
+    <ellipse cx="40" cy="14" rx="46" ry="14" fill="#2c3f66" stroke="#6dff3a" stroke-opacity="0.6"/>
+    <rect x="30" y="-6" width="18" height="12" rx="3" fill="#2c3f66" stroke="#6dff3a" stroke-opacity="0.6"/>
+    <rect x="42" y="-14" width="2" height="9" fill="#6dff3a"/>
+    <circle cx="22" cy="14" r="3" fill="#ffd27a"/><circle cx="36" cy="14" r="3" fill="#ffd27a"/><circle cx="50" cy="14" r="3" fill="#ffd27a"/>
+    <polygon points="86,14 100,6 100,22" fill="#2c3f66"/>
+  </g>
+  <g fill="none" stroke="#7fb4ff" stroke-opacity="0.35">
+    <circle cx="520" cy="90" r="4"/><circle cx="508" cy="64" r="6"/><circle cx="530" cy="40" r="3"/>
+  </g>
+  <rect x="14" y="14" width="932" height="272" fill="none" stroke="#6dff3a" stroke-opacity="0.5" stroke-width="1.5"/>
+  <path d="M14 40 L14 14 L40 14 M920 14 L946 14 L946 40 M946 260 L946 286 L920 286 M40 286 L14 286 L14 260" stroke="#ff7a00" stroke-width="3" fill="none"/>
+  <text class="mono" x="44" y="58" font-size="13" fill="#ff7a00" letter-spacing="3">NERV // DEEP SEA DIVISION // UNIT-01</text>
+  <text class="mono" x="44" y="128" font-size="48" font-weight="700" fill="#b98cff" letter-spacing="2">VICTOR NORAMBUENA</text>
+  <text class="mono" x="44" y="166" font-size="19" fill="#6dff3a" letter-spacing="2">PILOT · INGENIERIA INFORMATICA</text>
+  <text class="mono" x="44" y="202" font-size="15" fill="#e8dcff" opacity="0.85">web  ·  cloud  ·  devsecops</text>
+  <text class="mono" x="44" y="252" font-size="14" fill="#ff7a00">DEPTH: 3000m</text>
+  <rect x="170" y="240" width="190" height="14" fill="none" stroke="#6dff3a" stroke-width="1.2"/>
+  <rect x="173" y="243" width="150" height="8" fill="#6dff3a" opacity="0.8"/>
+  <text class="mono blink" x="380" y="252" font-size="14" fill="#6dff3a">■ ONLINE</text>
+</svg>
