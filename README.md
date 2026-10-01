@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="960" alt="Victor Norambuena - desde las profundidades">
+<img src="assets/banner.svg?v=2" width="960" alt="Victor Norambuena - desde las profundidades">
 
 <br>
 
@@ -10,7 +10,7 @@
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<p align="center"><img src="assets/whoami.svg" width="960" alt="bitacora"></p>
+<p align="center"><img src="assets/whoami.svg?v=2" width="960" alt="bitacora"></p>
 
 <img src="assets/divider.svg" width="100%" alt="">
 
