@@ -26,12 +26,31 @@
   <text class="m" x="24" y="238" fill="#2fe0c8">buzo@nautilus:~$ <tspan class="c" fill="#cfeeea">█</tspan></text>
 
   <!-- sonar -->
-  <g transform="translate(850 150)">
-    <circle r="62" fill="none" stroke="#2fe0c8" stroke-opacity="0.25"/>
-    <circle r="38" fill="none" stroke="#2fe0c8" stroke-opacity="0.2"/>
-    <circle r="14" fill="none" stroke="#2fe0c8" stroke-opacity="0.2"/>
-    <circle class="p" r="2" fill="none" stroke="#2fe0c8"/>
-    <circle cx="26" cy="-30" r="4" fill="#ff4d3d" class="c"/>
-    <circle cx="-8" cy="8" r="2.5" fill="#2fe0c8"/>
+  <defs>
+    <linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="882.4" y1="81.4" x2="914.0" y2="142.0">
+      <stop offset="0" stop-color="#00F3FF" stop-opacity="0"/><stop offset="1" stop-color="#00F3FF" stop-opacity=".55"/>
+    </linearGradient>
+    <radialGradient id="sonarbg" cx="840" cy="142" r="74" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06303a" stop-opacity=".55"/><stop offset="1" stop-color="#021218" stop-opacity=".25"/>
+    </radialGradient>
+  </defs>
+  <circle cx="840" cy="142" r="74" fill="url(#sonarbg)"/>
+  <g fill="none" stroke="#2fe0c8">
+    <circle cx="840" cy="142" r="74" stroke-opacity=".55"/>
+    <circle cx="840" cy="142" r="55.5" stroke-opacity=".22"/>
+    <circle cx="840" cy="142" r="37.0" stroke-opacity=".22" stroke-dasharray="2 4"/>
+    <circle cx="840" cy="142" r="18.5" stroke-opacity=".22"/>
+    <path d="M766 142 H914 M840 68 V216" stroke-opacity=".18"/>
+    <path d="M914.0 142.0 L907.0 142.0 M912.9 154.8 L909.4 154.2 M909.5 167.3 L906.2 166.1 M904.1 179.0 L898.0 175.5 M896.7 189.6 L894.0 187.3 M887.6 198.7 L885.3 196.0 M877.0 206.1 L873.5 200.0 M865.3 211.5 L864.1 208.2 M852.8 214.9 L852.2 211.4 M840.0 216.0 L840.0 209.0 M827.2 214.9 L827.8 211.4 M814.7 211.5 L815.9 208.2 M803.0 206.1 L806.5 200.0 M792.4 198.7 L794.7 196.0 M783.3 189.6 L786.0 187.3 M775.9 179.0 L782.0 175.5 M770.5 167.3 L773.8 166.1 M767.1 154.8 L770.6 154.2 M766.0 142.0 L773.0 142.0 M767.1 129.2 L770.6 129.8 M770.5 116.7 L773.8 117.9 M775.9 105.0 L782.0 108.5 M783.3 94.4 L786.0 96.7 M792.4 85.3 L794.7 88.0 M803.0 77.9 L806.5 84.0 M814.7 72.5 L815.9 75.8 M827.2 69.1 L827.8 72.6 M840.0 68.0 L840.0 75.0 M852.8 69.1 L852.2 72.6 M865.3 72.5 L864.1 75.8 M877.0 77.9 L873.5 84.0 M887.6 85.3 L885.3 88.0 M896.7 94.4 L894.0 96.7 M904.1 105.0 L898.0 108.5 M909.5 116.7 L906.2 117.9 M912.9 129.2 L909.4 129.8" stroke-opacity=".5" stroke-width="1"/>
   </g>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 840 142" to="360 840 142" dur="6s" repeatCount="indefinite"/>
+    <path d="M840 142 L882.4 81.4 A74 74 0 0 1 914.0 142.0 Z" fill="url(#sweep)"/>
+    <line x1="840" y1="142" x2="914.0" y2="142.0" stroke="#9ffff6" stroke-opacity=".9" stroke-width="1.3"/>
+  </g>
+  <g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="5.00s" repeatCount="indefinite"/><circle cx="867.5" cy="94.4" r="10.4" fill="#ff4d3d" fill-opacity=".18"/><circle cx="867.5" cy="94.4" r="4" fill="#ff4d3d"/></g><g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="1.67s" repeatCount="indefinite"/><circle cx="834.8" cy="171.5" r="6.2" fill="#00F3FF" fill-opacity=".18"/><circle cx="834.8" cy="171.5" r="2.4" fill="#00F3FF"/></g><g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="3.42s" repeatCount="indefinite"/><circle cx="783.8" cy="115.8" r="6.2" fill="#00F3FF" fill-opacity=".18"/><circle cx="783.8" cy="115.8" r="2.4" fill="#00F3FF"/></g><g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="0.37s" repeatCount="indefinite"/><circle cx="877.1" cy="157.0" r="6.2" fill="#00F3FF" fill-opacity=".18"/><circle cx="877.1" cy="157.0" r="2.4" fill="#00F3FF"/></g><g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="4.17s" repeatCount="indefinite"/><circle cx="833.8" cy="125.1" r="6.2" fill="#00F3FF" fill-opacity=".18"/><circle cx="833.8" cy="125.1" r="2.4" fill="#00F3FF"/></g>
+  <circle cx="840" cy="142" r="2.2" fill="#9ffff6"/>
+  <text class="m" x="840" y="62" font-size="9" fill="#6fb9b3" text-anchor="middle">N</text>
+  <text class="m" x="879" y="139" font-size="8" fill="#6fb9b3" fill-opacity=".7">1km</text>
+  <text class="m" x="840" y="232" font-size="9" fill="#ff4d3d" text-anchor="middle"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/>CONTACTO NO IDENTIFICADO</text>
 </svg>
