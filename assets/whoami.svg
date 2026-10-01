@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 270" width="960" height="270" role="img" aria-label="bitacora de inmersion">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#04141c"/><stop offset="1" stop-color="#010609"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a1426"/><stop offset="1" stop-color="#07040f"/></linearGradient>
     <style>
       .m{font-family:'JetBrains Mono','Consolas','Courier New',monospace;font-size:16px}
       @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
@@ -13,15 +13,15 @@
   </defs>
   <rect width="960" height="270" fill="url(#bg)"/>
   <rect x="1" y="1" width="958" height="268" fill="none" stroke="#2fe0c8" stroke-opacity="0.35"/>
-  <rect x="1" y="1" width="958" height="30" fill="#07222b"/>
-  <circle cx="22" cy="16" r="5" fill="#ff4d3d"/><circle cx="42" cy="16" r="5" fill="#2a4a52"/><circle cx="62" cy="16" r="5" fill="#2a4a52"/>
+  <rect x="1" y="1" width="958" height="30" fill="#1a1238"/>
+  <circle cx="22" cy="16" r="5" fill="#ff8a2b"/><circle cx="42" cy="16" r="5" fill="#2a4a52"/><circle cx="62" cy="16" r="5" fill="#2a4a52"/>
   <text class="m" x="90" y="21" font-size="13" fill="#6fb9b3">bitacora://inmersion-0417 · transmision inestable</text>
 
   <text class="m" x="24" y="68"  fill="#2fe0c8">buzo@nautilus:~$ <tspan fill="#cfeeea">whoami</tspan></text>
   <text class="m" x="24" y="96"  fill="#cfeeea">Victor Leandro Norambuena Orellana · Chile</text>
   <text class="m" x="24" y="130" fill="#2fe0c8">buzo@nautilus:~$ <tspan fill="#cfeeea">cat bitacora.txt</tspan></text>
   <text class="m" x="24" y="158" fill="#6fb9b3">&gt; Gran día para la vieja lista de Obsidian.</text>
-  <text class="m f" x="24" y="180" fill="#b78cff">&gt; Me metí demasiado profundo, una parte de mí sigue ahí abajo... programando...</text>
+  <text class="m f" x="24" y="180" fill="#b78cff">&gt; Fui demasiado profundo, una parte de mí sigue ahí abajo... programando...</text>
   <text class="m" x="24" y="202" fill="#6fb9b3">&gt; proyecto activo: Geo-Constanza (geocercas + BI).</text>
   <text class="m" x="24" y="238" fill="#2fe0c8">buzo@nautilus:~$ <tspan class="c" fill="#cfeeea">█</tspan></text>
 
@@ -31,7 +31,7 @@
       <stop offset="0" stop-color="#00F3FF" stop-opacity="0"/><stop offset="1" stop-color="#00F3FF" stop-opacity=".55"/>
     </linearGradient>
     <radialGradient id="sonarbg" cx="840" cy="142" r="74" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#06303a" stop-opacity=".55"/><stop offset="1" stop-color="#021218" stop-opacity=".25"/>
+      <stop offset="0" stop-color="#1b1a4a" stop-opacity=".6"/><stop offset="1" stop-color="#0a0820" stop-opacity=".3"/>
     </radialGradient>
   </defs>
   <circle cx="840" cy="142" r="74" fill="url(#sonarbg)"/>
@@ -48,9 +48,9 @@
     <path d="M840 142 L882.4 81.4 A74 74 0 0 1 914.0 142.0 Z" fill="url(#sweep)"/>
     <line x1="840" y1="142" x2="914.0" y2="142.0" stroke="#9ffff6" stroke-opacity=".9" stroke-width="1.3"/>
   </g>
-  <g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="5.00s" repeatCount="indefinite"/><circle cx="867.5" cy="94.4" r="10.4" fill="#ff4d3d" fill-opacity=".18"/><circle cx="867.5" cy="94.4" r="4" fill="#ff4d3d"/></g><g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="1.67s" repeatCount="indefinite"/><circle cx="834.8" cy="171.5" r="6.2" fill="#00F3FF" fill-opacity=".18"/><circle cx="834.8" cy="171.5" r="2.4" fill="#00F3FF"/></g><g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="3.42s" repeatCount="indefinite"/><circle cx="783.8" cy="115.8" r="6.2" fill="#00F3FF" fill-opacity=".18"/><circle cx="783.8" cy="115.8" r="2.4" fill="#00F3FF"/></g><g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="0.37s" repeatCount="indefinite"/><circle cx="877.1" cy="157.0" r="6.2" fill="#00F3FF" fill-opacity=".18"/><circle cx="877.1" cy="157.0" r="2.4" fill="#00F3FF"/></g><g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="4.17s" repeatCount="indefinite"/><circle cx="833.8" cy="125.1" r="6.2" fill="#00F3FF" fill-opacity=".18"/><circle cx="833.8" cy="125.1" r="2.4" fill="#00F3FF"/></g>
+  <g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="5.00s" repeatCount="indefinite"/><circle cx="867.5" cy="94.4" r="10.4" fill="#ff8a2b" fill-opacity=".18"/><circle cx="867.5" cy="94.4" r="4" fill="#ff8a2b"/></g><g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="1.67s" repeatCount="indefinite"/><circle cx="834.8" cy="171.5" r="6.2" fill="#00F3FF" fill-opacity=".18"/><circle cx="834.8" cy="171.5" r="2.4" fill="#00F3FF"/></g><g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="3.42s" repeatCount="indefinite"/><circle cx="783.8" cy="115.8" r="6.2" fill="#00F3FF" fill-opacity=".18"/><circle cx="783.8" cy="115.8" r="2.4" fill="#00F3FF"/></g><g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="0.37s" repeatCount="indefinite"/><circle cx="877.1" cy="157.0" r="6.2" fill="#00F3FF" fill-opacity=".18"/><circle cx="877.1" cy="157.0" r="2.4" fill="#00F3FF"/></g><g opacity=".08"><animate attributeName="opacity" values="1;.05;.05" keyTimes="0;.75;1" dur="6s" begin="4.17s" repeatCount="indefinite"/><circle cx="833.8" cy="125.1" r="6.2" fill="#00F3FF" fill-opacity=".18"/><circle cx="833.8" cy="125.1" r="2.4" fill="#00F3FF"/></g>
   <circle cx="840" cy="142" r="2.2" fill="#9ffff6"/>
   <text class="m" x="840" y="62" font-size="9" fill="#6fb9b3" text-anchor="middle">N</text>
   <text class="m" x="879" y="139" font-size="8" fill="#6fb9b3" fill-opacity=".7">1km</text>
-  <text class="m" x="840" y="232" font-size="9" fill="#ff4d3d" text-anchor="middle"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/>CONTACTO NO IDENTIFICADO</text>
+  <text class="m" x="840" y="232" font-size="9" fill="#ff8a2b" text-anchor="middle"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/>CONTACTO NO IDENTIFICADO</text>
 </svg>
